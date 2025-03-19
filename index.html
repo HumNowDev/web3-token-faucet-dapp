@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HumNowYouBabe Token Faucet</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>HumNowYouBabe Token Faucet</h1>
+
+  <button id="connectWallet">Connect Wallet</button>
+
+  <div id="walletInfo">
+    <p>Wallet Address: <span id="walletAddress"></span></p>
+    <p>Token Balance: <span id="tokenBalance">0</span> HUM</p>
+  </div>
+
+  <button id="requestTokens" disabled>Request Tokens</button>
+
+  <p id="messageArea"></p>
+
+  <!-- 💡 Load Ethers.js BEFORE your script -->
+  <script src="https://cdn.ethers.io/lib/ethers-5.2.umd.min.js"></script>
+  <script src="script.js"></script>
+
+</body>
+</html>
